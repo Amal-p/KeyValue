@@ -1,7 +1,7 @@
 <?php
 
     namespace KeyValue;
-    
+
     class KeyValue{
         private $dbConnection;
 
@@ -12,7 +12,7 @@
             $this->password = $password;
 
             
-            $this->dbConnection = new mysqli($host, $user, $password, $db);
+            $this->dbConnection = new \mysqli($host, $user, $password, $db);
             if ($this->dbConnection->connect_error) {
                 die("Connection failed: " . $dbConnection->connect_error);
             } 
