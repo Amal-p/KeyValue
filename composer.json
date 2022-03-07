@@ -1,0 +1,18 @@
+{
+    "name": "interintender/key-value",
+    "description": "This library for store data to key value paire and its easy operations",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Amal P",
+            "email": "amalpvatayam67@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "KeyValue\\":"src/"
+        }
+    },
+    "require": {}
+}
